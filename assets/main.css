@@ -1,0 +1,32 @@
+/* (c) Orbisius.com */
+
+.orbisius_ditto_container_public .hide, .orbisius_ditto_container .hide {
+    display: none;
+}
+
+.orbisius_ditto_container .success {
+    color:green;
+}
+
+.orbisius_ditto_container .error {
+    color:red;
+}
+
+/* This css overrides WordPress' limit of 200px. We need this because the fields do not fit on one line. */
+/*.orbisius_ditto_container .form-table th {
+    _max-width: 150px;
+}*/
+
+.orbisius_ditto_fixed {
+    top:0;
+    position:fixed;
+    z-index: 999;
+}
+
+.orbisius_ditto_fixed_non_logged {
+    top:0px;
+}
+
+.orbisius_ditto_fixed_logged {
+    top:28px;
+}
